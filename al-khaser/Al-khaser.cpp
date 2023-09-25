@@ -319,7 +319,7 @@ int main(int argc, char* argv[])
 	/* Timing Attacks */
 	if (ENABLE_TIMING_ATTACKS) {
 		print_category(TEXT("Timing-attacks"));
-		UINT delayInSeconds = 600U;
+		UINT delayInSeconds = 10U;
 		UINT delayInMillis = delayInSeconds * 1000U;
 		printf("\n[*] Delay value is set to %u minutes ...\n", delayInSeconds / 60);
 
